@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background: #FF8A00;
+}
+.row-container {
+  display: grid;
+  grid-template-areas: "nav main aside"; 
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 200px;
+}
+nav {
+  background: #00FF01;
+}
+main {
+  background: #EAF285;
+}
+aside {
+  background: #4779B6;
+}
+footer {
+  background: #FFACC0;
+}
+header, footer {
+  height: 60px;
+}
+p {
+  padding: 10px;
+}
